@@ -1,0 +1,47 @@
+.abc{
+    border: 2px solid firebrick;
+    background-color: black;
+    font-size: 50px;
+    color: white;
+}
+#main{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+
+}
+span{
+    font-size: 50px;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+input[type=text]{
+    color: sandybrown;
+    
+}
+input[type=password]{
+    color: blue;
+}
+/*a[href]{
+    background-color: aqua;
+    color: green;
+}*/
+a:link{
+    color: pink;
+}
+a:visited{
+    color: maroon;
+}
+a:hover{
+    font-size: 30px;
+    color: green;
+}
+a:active{
+    color:cyan
+}

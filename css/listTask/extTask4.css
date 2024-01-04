@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    background-color: yellow;
+    padding-top: 30px;
+}
+li{
+    list-style-type: none;
+    margin:50px;
+    display: inline;
+}
+a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+    font-size: 35px;
+    
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 35px;
+    text-indent: 60px;
+    text-transform: capitalize;
+}

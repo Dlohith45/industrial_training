@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Position Task</title>
+        <style>
+            div{
+                height: 600px;
+                width: 820px;
+                border: 1px solid black;
+            }
+            .top{
+                height: 350px;
+                width: 820px;
+                border: 2px black;
+            }
+            .static{
+                height: 300px;
+                width: 200px;
+                border: 1px solid gray;
+                border-right: 2px solid black;
+                border-bottom: 2px solid black;
+                float: left;
+            }
+            .relative{
+                height: 300px;
+                width: 200px;
+                border: 1px solid gray;
+                border-right: 2px solid black;
+                border-bottom: 2px solid black;
+               
+                float: left;
+
+            }
+            .absolute{
+                height: 300px;
+                width: 200px;
+                border: 1px solid gray;
+                border-right: 2px solid black;
+                border-bottom: 2px solid black;
+               
+                float: left;
+            }
+            .fixed{
+                height: 300px;
+                width: 199px;
+                border: 1px solid gray;
+                border-bottom: 2px solid black;
+                float:left;
+            }
+            .s1{
+                width: 150px;
+                height: 250px;
+                margin-left: 20px;
+            }
+            .r1{
+                width: 150px;
+                height: 250px;
+                margin-left: 20px;
+
+            }
+            .a1{
+                width: 150px;
+                height: 250px;
+                margin-left: 20px;
+
+            }
+            .f1{
+                width: 150px;
+                height: 250px;
+                margin-left: 20px;
+
+            }
+            .s{
+                height: 80px;
+                width: 90px;
+              background-color: skyblue;
+              float: left;
+              position:static;
+              
+            }
+           .s2{
+            height: 80px;
+                width: 90px;
+              background-color: green;
+              float: left;
+              position:static;
+              text-align: center;    
+           }
+           .s3{
+            height: 80px;
+                width: 90px;
+              background-color: skyblue;
+              float: left;
+              position:static;   
+           }
+           p{
+            margin-top: 20px;
+           }
+           r{
+            height: 80px;
+            width: 40px;
+            background-color: green;
+            float: left;
+            position: relative;
+           }
+           .parent{
+             height: 80px;
+             width: 90px;
+           }   
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="top">
+                <div class="static">
+                   position:static
+                    <div class="s1">
+                        <div class="s"></div>
+                        <div class="s2"><p>static</p></div>
+                        <div class="parent">
+                        <div class="s3"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    position:relative
+                    <div class="r1">
+                        <div class="s"></div>
+                        <div class="r"></div>
+                        
+
+
+                    </div>
+                </div>
+                <div class="absolute">
+                    position:absolute
+                    <div class="a1"></div>
+                </div>
+                 <div class="fixed">
+                    position:fixed
+                    <div class="f1"></div>
+                 </div>
+            </div>
+           
+            
+        </div>
+    </body>
+</html> 

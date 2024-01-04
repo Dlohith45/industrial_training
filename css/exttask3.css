@@ -1,0 +1,106 @@
+.main{
+    height: 600px;width: 1000px;background-color: black;
+}
+.top{
+    height: 100px;width: 1000px;background-color: orange;
+}
+.a{
+    height: 100px;width: 200px;background-color: darkcyan;float: left;
+}
+.b{
+    height: 100px;width: 600px;background-color: green;float: left;
+}
+.c{
+   height: 100px;width: 200px;background-color: red;float: right;
+}
+.d{
+    height: 50px;width: 200px;background-color: yellow;
+}
+.e{
+    height: 50px;width: 200px;background-color: indigo;
+}
+.f{
+    height: 50px;width: 100px;background-color: royalblue;float: left;
+}
+.g{
+    height: 50px;width: 100px;background-color: darkgreen;float: right;
+}
+.h{
+    height: 500px;width: 200px;background-color: darkslateblue;float: left;
+}
+.i{
+    height: 300px;width: 200px;background-color: salmon;
+}
+.j{
+    height: 200px;width: 200px;background-color: fuchsia;
+}
+.k{
+    height:200px;width: 100px;background-color: gold;float: left;
+}
+.l{
+    height: 200px;width: 100px;background-color: violet;float: right;
+}
+.m{
+    height: 100px;width: 800px;background-color: hotpink;float: right;
+}
+.n{
+    height: 400px;width: 800px;background-color: orange;float: right;
+}
+.o{
+    height: 400px;width: 200px;background-color: darkblue;float: left;
+}
+.p{
+    height: 200px;width: 200px;background-color: firebrick;
+}
+.q{
+    height: 200px;width: 100px;background-color: lightgreen;float: left;
+}
+.r{
+    height: 200px;width: 100px;background-color: mediumslateblue;float: right;
+}
+.s{
+    height: 400px;width: 200px;background-color: yellow;float: left;
+}
+.t{
+    height: 400px;width: 400px;background-color: deepskyblue;float: right;
+}
+.u{
+    height: 100px;width: 400px;background-color: palegreen;
+}
+.v{
+    height: 300px;width: 400px;background-color: blueviolet;
+}
+.w{
+    height: 300px;width: 150px;background-color: blanchedalmond;float: left;
+}
+.x{
+    height: 150px;width: 150px;background-color: lime;
+}
+.y{
+    height: 150px;width: 150px;background-color: orange;
+}
+.z{
+    height: 150px;width: 75px;background-color: powderblue;float: left;
+}
+.a1{
+    height: 150px;width: 75px;background-color: yellow;float:right;
+}
+.a2{
+    height: 300px;width: 100px;background-color: palegoldenrod;float: left;
+}
+.a3{
+    height: 300px;width: 150px;background-color: violet;float: right;
+}
+.a4{
+    height: 150px;width: 150px;background-color: red;
+
+}
+.a5{
+     height: 150px;width: 150px;background-color: rebeccapurple;
+}
+.a6{
+    height: 150px;width: 75px;background-color: tomato;float: left;
+}
+.a7{
+    height: 150px;width: 75px;background-color: pink;float: right;
+}

@@ -1,0 +1,523 @@
+.main{
+    width: 1030px;
+    height: 7731;   
+}
+.a{
+    height: 300px;
+    width: 1030px;  
+}
+.i{
+   margin-left:900px ;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+   margin-left: 200px;  
+}
+.p{
+    margin-left: 200px;
+    line-height: 30px;  
+}
+.b1{
+    border: 0px;
+    background-color: blue;
+    color: white;
+    margin-left: 200px;
+    height: 50px;
+    width: 200px;       
+}
+img{
+    float:right;
+    height: 300px;
+    width: 500px;
+    position: relative;
+   bottom:280px; 
+    margin-left: 170px;
+}
+.b{
+    height: 320px;
+    width: 1030px;
+   background-color: blue;
+   margin-top: 20px;
+}
+.vr2{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px; 
+    position: relative;
+    left: 300px;   
+}
+.s1{
+    width: 250px;
+    height: 250px;
+    background-color:white;
+    border-radius: 10px;
+    margin-left: 80px;
+    float: left;
+}
+.sv{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+}
+.smallvr{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.sv1{
+    color: blue;
+}
+.text{
+    color: yellow;
+}
+.svbutton{
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    bottom: 10px;
+}
+.s2{
+    width: 250px;
+    height: 250px;
+    background-color:white;
+    border-radius: 10px;
+    margin-left: 80px;
+    float: left;
+    position: relative;
+    bottom: 210px;
+}
+.sv3{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+}
+.person{
+    position: relative;
+    bottom: 35px;
+    font-size: 25px;
+}
+.sv2{
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.text2{
+         color: yellow;
+         position: relative;
+         bottom: 20px;
+}
+.svbutton2{
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+}
+.s3{
+    width: 250px;
+    height: 250px;
+    background-color:white;
+    border-radius: 10px;
+    margin-left: 80px;
+    float: left;
+    position: relative;
+    bottom: 260px
+
+}
+.sv4{
+   width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+
+}
+.wifi{
+    font-size: 25px;
+    position: relative;
+    bottom: 35px;
+}
+.sv5{
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.text3{
+        color: yellow;
+         position: relative;
+         bottom: 20px;
+}
+.svbutton3{
+ border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+}
+.c{
+   height: 400px;
+    width: 1030px;
+   background-color: white;
+   margin-top: 20px;
+   position: relative;
+   bottom: 7100px;
+}
+.photo{
+        float: left;
+        height: 300px;
+        width: 500px;
+        position: relative;
+        top: 320px;
+}
+.page3head{
+            color: white;
+            position: relative;
+            top: 20px;
+            left: 40px;
+}
+.page3head1{
+             color: black;
+             font-size: 40px;
+             text-transform: capitalize;
+             position: relative;
+             left: 38px;
+       }
+.text4{
+color: black;
+position: relative;
+left: 40px;
+}  
+.bulb{
+        font-size: 20px;
+       position: relative;
+       left: 30px;
+} 
+.text5{
+color: black;
+
+position:relative;
+left: 60px;
+bottom: 40px;
+}
+.horn{
+       font-size: 20px;
+       position: relative;
+       left:529px;
+       bottom: 30px;
+
+}
+.text6{
+          color: black;
+          position: relative;
+          left: 560px;
+          bottom: 65px;
+}
+.d{
+    height: 500px;
+    width: 1030px;
+   background-color: grey;
+   margin-top: 20px;
+   position: relative;
+   bottom: 7175px;
+}  
+.page4head{
+          font-size: 30px;
+          color: blue;
+          position: relative;
+          left: 350px;
+} 
+.page4box1{
+           height: 100px;
+           width: 780px;
+           background-color: white;
+}  
+.one{
+font-size: 90px;
+position: relative;
+bottom: 185px;
+left: 130px;
+color: blue;
+}
+.page4text1{
+         color: black;
+         position: relative;
+         left: 180px;
+         bottom: 340px;
+}  
+.page4box2{
+          height: 100px;
+           width: 780px;
+           background-color: white;
+           position: relative;
+           bottom: 7440px;
+           right:25px;
+}   
+.two{
+font-size: 90px;
+position: relative;
+bottom: 7620px;
+left: 130px;
+color: blue;
+}
+.page4text2{
+        color: black;
+         position: relative;
+         left: 180px;
+         bottom:7770px;
+}
+.page4box3{
+          height: 100px;
+           width: 790px;
+           background-color:blue;
+           position: relative;
+           bottom: 7730px;
+           right:25px;
+}
+.three{
+        font-size: 90px;
+        position: relative;
+        bottom: 7910px;
+        left: 130px;
+        color: white;
+      
+}
+.page4text3{
+         color:white;
+         position: relative;
+         left: 180px;
+         bottom:8060px;
+}
+.e{ 
+    height: 450px;
+    width: 1030px;
+   background-color:white;
+   margin-top: 20px;
+   position: relative;
+   bottom: 8025px;
+
+}
+.bulb2{
+      font-size: 20px;
+      position: relative;
+      left: 170px;
+      top: 50px;
+}
+.page5head1{
+      font-size: 40px;
+      position: relative;
+      left: 170px;
+      top: 20px;
+      text-transform: uppercase;
+}
+.page5text1{
+         color:black;
+         position: relative;
+         left: 170px;
+         bottom: 10px;
+         
+}
+.page5text2{
+         color:black;
+         position: relative;
+         left: 170px;
+         bottom: 10px;
+
+}
+.page5button{
+             border: 2px solid blue;
+            background-color: white;
+            color: blue;
+            height: 35px;
+            width: 120px;
+           position: relative;
+           left: 190px;
+           bottom: 10px;
+}
+.page5photo{      
+          float: right;  
+          width: 400px;
+          height: 400px;
+          position: relative;
+          bottom: 380px;         
+}
+.f{
+   height: 450px;
+    width: 1030px;
+   position: relative;
+   bottom: 8040px;
+   background-image:url('../images/man-wearing-vr-glasses-with-purple-light.jpg') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.page6box{
+           height: 300px;
+           width: 400px;
+           background-color: white;
+           position: relative;
+           left: 90px;
+           top: 40px;
+}
+.page6head{
+         color: blue;
+         font-size: 20px;
+         text-transform: uppercase;
+         letter-spacing: 3px;
+         position: relative;
+         top: 60px;
+         left: 30px;
+}
+.page6text{
+         color: blue;
+         font-size: 30px;
+         position: relative;
+         top:50px;
+         left: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page6button{
+           border: 2px solid blue;
+            background-color: white;
+            color: blue;
+            height: 35px;
+            width: 120px;
+           position: relative;
+           left: 30px;
+           top: 80px;           
+}
+.g{ 
+     height: 400px;
+    width: 1030px;
+   background-color:red;
+   position: relative;
+   bottom: 8064px;
+}
+.page7head{
+        color: blue;
+         font-size: 30px;
+         letter-spacing: 3px;
+         position: relative;
+         top: 60px;
+         left: 90px;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+}
+.page7text{
+        color: black;
+         font-size: 20px;
+         position: relative;
+         top:50px;
+         left:90px;
+}
+.whatsapp{
+     font-size: 30px;
+      position: relative;
+      left: 90px;
+      top: 60px;              
+}
+.chat{
+       font-size: 20px;
+      color: black;
+      position: relative;
+      left: 120px;
+      top: 20px;
+      color: blue;
+}
+.page7text1{
+         color: blue;
+         font-size: 40px;
+         position: relative;
+         bottom:320px;
+         left:650px;                   
+}
+.page7text2{
+       color: black;
+       font-size: 20px;
+       text-transform: uppercase;
+       position: relative;
+       left:640px;
+       bottom: 330px;
+}
+.h{
+     height: 250px;
+    width: 1030px;
+   background-color:blue;
+   margin-top: 20px;
+   position: relative;
+   bottom: 8110px;
+}
+.page8head{
+           font-size: 50px;
+           color: white;
+           text-transform: uppercase;
+           position: relative;
+           left: 350px;
+           top: 20px;                 
+}
+.facebook{
+          font-size: 30px;
+          position: relative;
+          left: 400px;
+          color: white;
+
+}
+.twitter{
+         font-size: 30px;
+         position: relative;
+         left: 450px;
+         bottom: 28px;
+         color: white;
+}
+.insta{
+        font-size: 30px;
+        color: white;
+        position: relative;
+        left: 500px;
+        bottom: 58px;
+}
+.linkedin{
+         font-size: 30px;
+         color: white;
+         position: relative;
+         left: 550px;
+         bottom: 88px;
+}
+.pintrest{
+       font-size: 30px;
+       color: white;
+       position: relative;
+       left: 600px;
+       bottom: 118px;
+}
+.lastpage{
+    height: 250px;
+    width: 1030px;
+   background-color:black;
+   margin-top: 20px;
+   position: relative;
+   bottom: 8130px;
+   left:0px;          
+}
+.page8text{
+       color: white;
+       font-size: 20px;
+       position: relative;
+       left:300px;
+       top: 35px;             
+}
+.page8text2{
+       color: white;
+       font-size: 20px;
+       position: relative;
+       left:400px;
+       top: 35px;
+}

@@ -1,0 +1,84 @@
+.main{
+    height: 700px;
+    width: 1400px;
+    background-color: grey;
+}
+.a{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+.box1{
+    height: 20px;
+    width: 250px;
+    background-color: darkmagenta;
+}
+.box2{
+    height: 20px;
+    width: 250px;
+    background-color: skyblue;
+}
+.box3{
+    height: 20px;
+    width: 250px;
+    background-color:green;
+
+}
+.box4{
+    height: 20px;
+    width: 250px;
+    background-color: yellow;
+}
+.box5{
+    height: 20px;
+    width: 250px;
+    background-color: purple;
+}
+.box6{
+    height: 20px;
+    width: 250px;
+    background-color:lightpink;
+}    
+.circle{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color:darkmagenta;
+}
+i{
+    margin-top: 18px;
+    margin-left: 18px;
+} 
+.head{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.text{ 
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+.b{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color:orange;
+    position: relative;
+    top: 530px;
+    right: 530px;
+    color: white;
+    border: 0px;
+}
