@@ -1,0 +1,125 @@
+body{
+    background-color: 232D3F;
+}
+.a{
+    background-color:43766C;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+.b{
+    width: 400px;
+    height: 500px;
+    float: left;
+   
+}
+input{
+    width: 300px;
+    height: 40px;
+}
+.name{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: A6FF96;
+}
+.search{
+    width: 300px;
+   text-align: center;
+   background-color: 146C94;
+   color: white;
+   margin-top: 20px;
+   height: 40px;
+   border: 0px;
+   border-radius: 5px;
+}
+.location{
+    width: 300px;
+   text-align: center;
+   background-color: grey;
+   color: white;
+   margin-top: 5px;
+   height: 40px;
+   font-family: cursive;
+   border: 0px;
+   border-radius: 5px;
+}
+.or{
+    color: grey;
+}
+.c{
+    width:800px;
+    height:240px;
+    float:right;
+}
+.c1{
+     height: 180px;
+     padding: 20px;
+     background-color:F7B787;
+     border-radius: 5px;
+     margin-top: 40px;
+      color: white;
+      position: relative;
+}
+.text1{
+    font-size: 20px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text2{
+    color: white;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img1{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    top: 30px;
+    left: 650px;
+}
+.t{
+    position:absolute;
+    top: 100px;
+    left: 650px;
+}
+.c2{
+    height: 360px;
+    padding: 20px;
+    float: right;
+    width: 750px;
+    
+
+}
+.forcast{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: A6FF96;
+}
+.box{
+    width: 150px;
+    height: 230px;
+    background-color:A78295;
+   float: left;
+   margin-left: 10px;
+   border-radius: 5px;
+}
+.date{
+    color: white;
+    padding: 10px;
+
+}
+.img2{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+.text3{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 10px;
+}
