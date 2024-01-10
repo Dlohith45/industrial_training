@@ -1,0 +1,199 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2D Transform</title>
+        <style>
+            .main{
+                width: auto;
+                height: 1800px;
+                
+            }
+            .a{
+                height:200px;
+                width:200px;
+                background-color: aqua;
+                float: left;
+                
+            }
+            .b{
+                height:200px;
+                width:200px;
+                background-color: orange;
+                float: left;
+                
+            }
+            .c{
+                height:200px;
+                width:200px;
+                background-color: yellow;
+                float: left;
+              
+            }
+            .a:hover{
+                transform: translate(40px,80px);
+            }
+            .b:hover{
+                transform: translateX(50px);
+            }
+            .c:hover{
+                transform: translatey(60px);
+            }
+            .d{
+                height:200px;
+                width:200px;
+                background-color: green;
+                float: left;
+               
+            }
+            .e{
+                height:200px;
+                width:200px;
+                background-color: rebeccapurple;
+                float: left;
+               
+                margin-top: 10px;
+            }
+            .f{
+                height:200px;
+                width:200px;
+                background-color: slategray;
+                float: left;
+               
+                margin-top: 10px;
+            }
+            .d:hover{
+                transform: rotate(-60deg);
+            }
+            .e:hover{
+                transform: rotatex(40deg);
+            }
+            .f:hover{
+                transform: rotatey(40deg);
+            }
+            .g{
+                height:200px;
+                width:200px;
+                background-color: red;
+                float: left;
+                
+                margin-top: 10px;
+            }
+            .h{
+                height:200px;
+                width:200px;
+                background-color: burlywood;
+                float: left;
+               
+                margin-top: 10px;
+            }
+            .i{
+                height:200px;
+                width:200px;
+                background-color: rgb(0, 128, 77);
+                float: left;
+              
+                margin-top: 10px;
+            }
+            .g:hover{
+                transform: scale(2);
+            }
+            .h:hover{
+                transform: scaleX(3);
+            }
+            .i:hover{
+                transform: scaleY(3);
+            }
+            .j{
+                height:200px;
+                width:200px;
+                background-color:rgba(0, 64, 255, 0.653);
+                float: left;
+              
+                margin-top: 10px;
+            }
+            .k{
+                height:200px;
+                width:200px;
+                background-color:blueviolet;
+                float: left;
+               
+                margin-top: 10px;
+            }
+            .l{
+                height:200px;
+                width:200px;
+                background-color: purple;
+                float: left;
+                
+                margin-top: 10px;
+            }
+            .j:hover{
+                transform: skew(30deg,20deg);
+            }
+            .k:hover{
+                transform:skewX(40deg);
+            }
+            .l:hover{
+                transform: skewY(50deg);
+            }
+            .m{
+                height:200px;
+                width:200px;
+                background-color: pink;
+                float: left;
+                
+                margin-top: 10px;
+            }
+            /*matrix(scaleX(),skewY(),skewY(),scaleY(),translateX(),translateY())*/
+            .m:hover{
+                transform: matrix(1,0.2,0,2,30,60)
+            }
+            @media screen and (min-width:209px) and (max-width:418px) 
+            {
+                .a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m{
+                    width: 100%;
+                }  
+            }
+            @media screen and (min-width:419px) and (max-width:618px)
+            {
+                .a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m{
+                    width: 50%;
+                }  
+            }
+            @media screen and (min-width:619px) and (max-width:818px)
+            {
+                .a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m{
+                    width: 33.33%;
+                }  
+            }
+            @media screen and (min-width:819px) and (max-width:1018px)
+            {
+                .a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m{
+                    width: 20%;
+                }  
+            }
+            
+        </style>
+    </head>
+    <body>
+       
+        <center><h1>Transform in CSS</h1></center><hr>
+        <div class="main">
+        <div class="a"><h1>Translate</h1></div>        
+        <div class="b"><h1>TranslateX</h1></div>
+        <div class="c"><h1>TranslateY</h1></div>
+        <div class="d"><h1>Rotate</h1></div>
+        <div class="e"><h1>rotateX</h1></div>
+        <div class="f"><h1>RotateY</h1></div>
+        <div class="g"><h1>Scale</h1></div>
+        <div class="h"><h1>ScaleX</h1></div>
+        <div class="i"><h1>ScaleY</h1></div>
+        <div class="j"><h1>Skew</h1></div>
+        <div class="k"><h1>SkewX</h1></div>
+        <div class="l"><h1>SkewY</h1></div>
+        <!--matrix(scaleX(),skewY(),skewY(),scaleY(),translateX(),translateY())*/-->
+        <div class="m"><h1>Margin</h1></div>
+    </div>
+    </body>
+</html>
