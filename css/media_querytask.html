@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        .a{
+            width:1250px;
+            height:840px;
+            margin-left: 5px solid;
+            
+        }
+        .left{
+            width:600px;
+            height:420px;
+            background-color:green;
+            float:left;
+            margin-right:20px;
+            margin-bottom:20px;
+        }
+        .right{
+            height:200px;
+            width:290px;
+            float:left;
+            margin-right:10px;
+            background-color:blue;
+            margin-bottom:20px;
+            position: relative;
+            right: 25px;
+            left: 0px;
+        }
+        @media screen and (min-width:64px) and (max-width:190px) 
+        {
+            .left{
+                  width: 70%;
+                 }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="left"></div>
+        <div class="left" style="background-color: white;">
+            <div class="right"></div>
+            <div class="right"style="background-color:hwb(332 2% 7%);"></div>
+            <div class="right"style="background-color:gold;"></div>
+            <div class="right"style="background-color:purple;"></div>
+        </div>
+        <div class="left" style="background-color: white;">
+            <div class="right"></div>
+            <div class="right"style="background-color:hwb(332 2% 7%);"></div>
+            <div class="right"style="background-color:gold;"></div>
+            <div class="right"style="background-color:purple;"></div>
+        </div>
+        <div class="left"></div>
+    </div>
+    
+</body>
+</html>
