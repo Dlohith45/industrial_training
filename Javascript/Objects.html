@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in js</title>
+</head>
+<body>
+    <h1>Objects in js</h1>
+    <hr>
+    <script>
+        let a={
+            name:'Aditya',//key:value
+            id:123,
+            college:'thub'
+        }
+        //key-value is called as property
+        console.log(a)//printing the objects
+        console.log(a.id)//dot notation
+        console.log(a['name'])//Array notation
+        a.name='KL'
+        console.log(a)//printing updated the object
+        console.log(a.name)
+        a.roll=6969
+        console.log(a)
+        delete a.roll//deleting the value
+        console.log(a)
+    </script>
+</body>
+</html>
