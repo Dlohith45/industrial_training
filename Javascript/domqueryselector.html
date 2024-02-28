@@ -1,0 +1,58 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hi</h1>
+    <h1 id="b">hello</h1>
+    <h1>hi</h1>
+    <h1 class="c">abc</h1>
+    <p id="a">ID</p>
+    <p id="a">ID</p>
+    <p class="a">CLASS</p>
+    <p class="a">CLASS</p>
+    <h2>TAG</h2>
+    <h2>TAG</h2>
+     <p class="z">123</p>
+     <p id="z">123</p>
+     <h6>123</h6>
+     <a id="myanchor">Click Here</a>
+    <script>
+        //query selector("#id,.class,tag")
+        const qs=document.querySelector("h1").style.backgroundColor="orange" //first one only applicable
+        const a=document.querySelector("#b")
+        a.style.backgroundColor="red"
+        //query selectorAll
+        //by using id
+        let b=document.querySelectorAll("#a")
+        b[0].style.backgroundColor="green"
+        b[1].style.backgroundColor="yellow"
+        //by using class name
+        let c=document.querySelectorAll(".a")
+        c[0].style.backgroundColor="red"
+        c[1].style.backgroundColor="purple"
+        //by using tag name
+        let d=document.querySelectorAll("h2")
+        d[0].style.fontSize="70px"
+        d[1].style.fontSize="75px"
+        d[1].style.color="orange"                           
+        d[1].style.fontFamily="calibri"
+
+         let all=document.querySelectorAll(".z,#z,h6")
+         console.log(all)
+         for(i=0;i<all.length;i++)
+         {
+            all[i].style.backgroundColor='brown' //apply the same method to various classes,tags,id we need to use for loop
+            all[i].style.fontSize='60px'
+         }
+         //setAttribute
+         const anch=document.getElementById('myanchor')
+         anch.setAttribute("href","http://lohithchandrad.42web.io/resume")
+         anch.setAttribute("target","_blank")
+
+    </script>
+</body>
+</html>

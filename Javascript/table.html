@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" width="50%" >
+        <tr>
+            <th>course name</th>
+            <th>course number</th>
+            <th>course fees</th>
+            <th>place</th>
+        </tr>
+        <tbody id="head"></tbody>
+    </table>
+    <script>
+        const obj=[{
+            name:'html',
+            number:24323,
+            fees:253,
+            place:'dwp'
+        },
+        {
+        name:'css',
+        number:12345,
+        fees:567,
+        place:'dwp'
+        },
+        {
+        name:'css',
+        number:57484,
+        fees:789,
+        place:'dwp'
+        },
+        {
+        name:'Bootstrap',
+        number:39847,
+        fees:321,
+        place:'dwp'
+        },
+        {
+        name:'javascript',
+        number:21376,
+        fees:236,
+        place:'dwp'
+        }];
+       var a='<tbody>' 
+        for(i=0;i<obj.length;i++){
+            a=a+='<tr>'
+            a=a+'<td>'+obj[i].name +'</td>'
+            a=a+'<td>'+obj[i].number +'</td>'
+            a=a+'<td>'+obj[i].fees +'</td>'
+            a=a+'<td>'+obj[i].place +'</td>'
+            a=a+'</tr>'
+        }
+        a=a+'</tbody>';
+        document.getElementById('head').innerHTML=a;
+    </script>
+</body>
+</html>

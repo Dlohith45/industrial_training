@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="1200px" height="200px">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+        </tr>
+    </table>
+    <script>
+        const n=document.querySelectorAll("td")
+        console.log(n)
+        let a=["siva","raju","rohit","ravi","teja","siva","raju","rohit","ravi"]
+        let colors=["red","green","yellow","orange","brown","blue","pink","violet","purple"]
+        // n[0].innerHTML=a[0]
+        // n[0].style.backgroundColor="red"
+        // n[1].innerHTML=a[1]
+        // n[1].style.backgroundColor="green"
+        // n[2].innerHTML=a[2]
+        // n[2].style.backgroundColor="yellow"
+        // n[3].innerHTML=a[3]
+        // n[3].style.backgroundColor="orange"
+        // n[4].innerHTML=a[4]
+        // n[4].style.backgroundColor="purple"
+        // n[5].innerHTML=a[1]
+        // n[5].style.backgroundColor="brown"
+        // n[6].innerHTML=a[3]
+        // n[6].style.backgroundColor="violet"
+        // n[7].innerHTML=a[2] 
+        // n[7].style.backgroundColor="blue"
+        // n[8].innerHTML=a[4]
+        // n[8].style.backgroundColor="pink"
+        for(let i=0;i<n.length;i++){
+            n[i].innerHTML=a[i]
+            n[i].style.backgroundColor=colors[i]
+        }
+    </script>

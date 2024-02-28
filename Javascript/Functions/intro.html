@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of functions</title>
+</head>
+<body>
+    <button onclick="a1()">Click Here</button><br>
+    <input type="text" id="a" >
+    <button onclick="a2(document.getElementById('a').value)">Click Here</button><br>
+    <span id="c"></span>
+       <script>
+        //function with no parameters
+        //funcname()
+        function a1(){
+            document.write('Executed')
+        }
+        //function with one parameter
+        function a2(arg1){
+            //let name=document.getElementById('b').value;
+            document.getElementById('c').innerText=arg1
+        }
+        //function with two arguments
+        // add(500,500)
+        // function add(a,b){
+        //     console.log(a+b)
+        //     document.write(a+b)
+        // }
+        // fun(20)
+        // function fun(a=1,b=4)
+        // {
+        //     console.log(a+b)
+        //     document.write(a+b)   
+        // }
+        //arrow function
+        const fun1 = (a,b) => {
+            console.log(a+b)
+        }
+        fun1(40,60)
+        //Arrow function with string
+        const a = (a,b) => {
+            console.log(a+b)
+        }
+        fun1("hari","kiran")
+      const b = (b,c) => {
+        console.log(b+c)
+      } 
+    //   b(true,true) //2
+    //   b(true,false) //1
+    //   b(true,1) //2
+    //   b(false,"2")
+    //   b(false,"2")
+    //   b(false,"2")
+    //   b(false,"2")
+    //   b(false,"2")
+    //   b(false,"2")
+  
+    //set timer
+    setTimeout (()=>{
+        document.write("after 2 seconds")
+    },2000)
+     
+    settimout(test,5000)
+    
+    function test(){
+        document.write("after 5 seconds")
+    }
+    
+
+    </script>
+</body>
+</html>

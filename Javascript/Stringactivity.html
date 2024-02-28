@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <script>
+        let string="javascript,hi"
+       document.write("substr() :"+ string.substr(4,6)+"</br>")
+       document.write("substring() :"+ string.substring(0,4)+ "</br>")
+       var text="ravi"
+        document.write("Before replace:"+text+"</br>")
+       document.write(" After replace() :"+ text.replace("ravi","teja")+ "</br>")
+       document.write("text :"+text+"</br>")
+       document.write("tolocaleUpperCase():"+ text.toLocaleUpperCase()+ "</br>")
+       var text1="APPLE"
+       document.write("text1 :"+text1+"</br>")
+       document.write("tolocaleLowerCase():"+ text1.toLocaleLowerCase()+ "</br>")
+       document.write("indexOf():"+ string.indexOf("i")+ "</br>")
+       var text2="welcome"
+       document.write("text2 :"+text2+"</br>")
+       document.write("includes():"+ text2.includes('welco')+ "</br>")
+       document.write("slice():"+string.slice(-9,-3)+"</br>")
+       let text3="hello"
+       let text4="world"
+       document.write("text3 :"+text3+"</br>")
+       document.write("text4 :"+text4+"</br>")
+       document.write("concat() :"+text3.concat(text4)+"</br>")
+       document.write("lastIndexOf() :"+string.lastIndexOf("script")+"</br>")
+       document.write(text3+"</br>")
+    document.write("charAt() Method:"+text3.charAt(0)+"<br/>")
+    document.write("charCodeAt() Method unique code:"+text3.charCodeAt(1)+"<br/>")
+    let text5 = "     Hello World!     ";
+    document.write(text5+"</br>")
+    document.write("before trim length:"+text5.length+"</br>")
+    document.write("trim() method:"+text5.trim()+"</br>")
+    var text6=text5.trim()
+    document.write("after trim length:"+text6.length+"</br>")
+    document.write("value of() method:"+text.valueOf()+"</br>")
+    let text7= "Hello";
+    document.write("before split:"+text7+"</br>")
+    const myArr = text7.split("");
+    text7 = "";
+    for (let i = 0; i < myArr.length; i++) {
+    text7 += myArr[i] + "<br>"
+    }
+    document.write("after using split() method:<br/>"+text7+"</br>")
+    var a=10
+    document.write("number:"+a+"</br>")
+    document.write("toString() Method return as string value:"+a.toString()+"</br>")
+    var text8 = "hello world";
+    document.write("value:"+text8+"</br>")
+    let result = text8.match("orld");
+    document.write("match() shows matches value:"+result)
+
+
+       
+
+       
+       
+
+
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Function</title>
+</head>
+<body>
+    <h1>Map Function</h1> <hr>
+    <script>
+        let a=[1998,1999,2003,2004,2005,2013,2016]
+        //arrow function
+         let ages1=a.map((age1,index,arr) => {
+            let currentage=2024-age1
+            return "current age is:" +currentage
+        })
+
+      //anonymous function
+      let ages=a.map(function(year,index,arr){
+        let age=2024-year
+        return "current age is" + age
+      })
+      //named function
+      let birthyear=[1998,1999,2003,2004,2005,2013,2016]
+      let agess=birthyear.map(findage)
+      function findage(age,index,arr){
+        console.log("current element is" + age)
+        console.log("current index position is" + index)
+        console.log("current array is" + arr)
+        let ag=2024-age
+        return "current age is" + age 
+        return ag
+      }
+      console.table(ages)
+      console.table(agess)
+      console.log(ages)
+      console.log(agess)
+      
+    </script>
+</body>
+</html>

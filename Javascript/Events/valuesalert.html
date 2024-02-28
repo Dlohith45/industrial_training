@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Enter Name</label>
+    <p id="a"></p>
+    <p id="b"></p>
+    <input type="text" name="" id="c" onkeyup="hi(this.value)">
+    <script>
+        // let num=document.getElementById('a')
+        
+        function hi(value){
+            for(i=0;i<=value.length;i++){
+                document.getElementById('b').innerText= 'length is :'+value.length
+                document.getElementById('a').style.color="red"
+
+                
+            if (value.length<4){
+        document.getElementById('a').innerText="please give more than 3 characters"
+       
+        document.body.style.backgroundColor="yellow"
+        }
+        else{
+            document.getElementById('a').innerText=value
+            document.body.style.backgroundColor="blue"
+        }
+         }
+        }
+    
+        
+       
+    </script>
+</body>
+</html>

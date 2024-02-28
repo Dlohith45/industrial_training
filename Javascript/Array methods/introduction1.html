@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods in js </title>
+</head>
+<body>
+    <center><h1>Array Methods</h1></center><hr>
+    <ul>
+        <li>push</li>
+        <li>pop</li>
+        <li>shift</li>
+        <li>unshift</li>
+        <li>concat</li>
+        <li>slice</li>
+        <li>splice</li>
+        <li>indexOf</li>
+        <li>sort</li>
+    </ul>
+    <script>
+        let a=["html","css","bootstrap"]
+        console.log(a)
+        //push
+        //add an element to the array
+        a.push("java")
+        console.log(a)
+        //pop
+        //remove an element from the array
+        a.pop()
+        console.log(a)
+        //shift
+        //removes the first value from the array
+        a.shift()
+        console.log(a)
+        //unshift
+        //adds the value to the first position to the array
+        a.unshift("react")
+        console.log(a)
+        //concat
+        //adding to arrays 
+        let var1=["banana",'grapes','apple']
+        let var2=["carrot",'potato']
+        console.log(var1)
+        console.log(var2)
+        let combined=var1.concat(var2)
+        console.log(combined)
+        //slice
+      let b=combined.slice(2,5)
+      console.log(b)
+       //splice
+       combined.splice(2,3,"tomato","king","queen")
+       console.log(combined)
+       //indexOf
+       let c= a.indexOf("bootstrap")
+       console.log(c)
+       //sort()
+       var1.sort()
+       console.log(var1)
+    </script>
+</body>
+</html>

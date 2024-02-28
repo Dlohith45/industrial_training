@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating element</title>
+</head>
+<body>
+    <p id="d"></p>
+    <script>
+        const Btn=document.createElement("button")
+        Btn.setAttribute("id", "Btn_id")
+        Btn.innerText="Click Me"
+        const NewDiv=document.createElement("div")
+        NewDiv.innerText="This is Division";
+        NewDiv.style.cssText=`width:200px;
+                              color:white;
+                              height:200px;
+                              background-color:red;
+                              fontsize:50px;`
+
+        //append element
+        const bdy=document.body //store into body
+        bdy.appendChild(Btn)
+        bdy.appendChild(NewDiv)
+
+        //append element
+        const MyBtn=document.getElementById("Btn_id")
+        MyBtn.addEventListener("mouseover",func1)
+        MyBtn.addEventListener("mouseout",func2)
+        MyBtn.addEventListener("click",func3)
+
+        function func1(){
+            bdy.style.backgroundColor="purple"
+        }
+        function func2(){
+            bdy.style.backgroundColor="orange"
+        }
+        function func3(){
+            document.getElementById("d").innerHTML=(Date())    
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>summ of even and odd number in array</title>
+</head>
+<body>
+    <h1>sum of even and odd number in array</h1>
+    <script>
+        //sum of even numbers in array
+        let numStr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        const sumEvens = (numStr) => {
+            let sum = 0;
+            for (let i = 0; i < numStr.length; i++) {
+                if (i % 2 === 0){ 
+                    sum = sum + numStr[i];
+                }
+            }
+         return sum;
+        }
+        //sum of odd numbers in array
+        let numStr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        const sumodds = (numStr1) => {
+            let sum1 = 0;
+            for (let i = 0; i < numStr1.length; i++) {
+                if (i % 2 !== 0){ 
+                    sum1 = sum1 + numStr1[i];
+                }   
+            }
+         return sum1;
+        }
+        document.write( "sum of even numbers are:"+sumEvens(numStr)+"</br>");
+
+        document.write("sum of odd numbers are:"+sumodds(numStr1)+"</br>");
+    </script>
+</body>
+</html>

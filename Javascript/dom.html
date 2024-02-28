@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM in css</title>
+</head>
+<body>
+    <a href="">Click me</a>
+    <h1 id="e">heading</h1>
+    <span class="p1">hello</span>
+    <span class="p1">abc</span>
+    <!-- by tagname -->
+    <h2>hi</h2>
+    <h2>aadab</h2>
+    <script>
+       //html elements convert into objects
+        console.log(document) //it shows the structure of the object
+        console.log(document.head)
+        console.log(document.body)
+        //by using id
+        const Byid = document.getElementById('e')
+        Byid.style.color="red"
+        Byid.style.fontSize="50px"
+        //by using class name 
+        const ClsID=document.getElementsByClassName('p1')
+        console.log(ClsID)
+        ClsID[1].style.color='blue'
+        ClsID[1].style.fontSize="60px"
+        ClsID[0].style.color="green"
+        ClsID[0].style.fontSize="100px"
+        //by using TagName
+        const Tagnm=document.getElementsByTagName('h2')
+        Tagnm[0].style.color="red"
+        Tagnm[0].style.fontSize="50px"
+        Tagnm[1].style.color="orange"
+        Tagnm[1].style.fontSize="70px"
+       
+
+    </script>
+</body>
+</html>

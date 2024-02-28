@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline event in js</title>
+</head>
+<body>
+    <button onclick="first()">Click Here</button>
+    <p id="id1"></p>
+    <script>
+        function first(){
+            document.body.style.backgroundColor="yellow"
+            document.getElementById("id1").innerText="This is a inline onclick event"
+        }
+    </script>
+</body>
+</html>

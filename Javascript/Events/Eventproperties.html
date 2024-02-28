@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function calling in js</title>
+</head>
+<body>
+    <button id="id1">Click Here</button>
+    <p id="id2"></p>
+    <!-- 2nd way (By using event Properties in js) -->
+    <script>
+      let btn=document.getElementById("id1")
+      let p=document.getElementById("id2")
+        // btn.onclick=change;                      //normal function calling
+        // btn.addEventListener("click",change)    //normal function calling using add event listener
+        btn.addEventListener("click",function(){   //anonymous function calling
+            document.body.style.backgroundColor="yellow"
+        })
+           
+        
+        // function change(){
+        //     document.body.style.backgroundColor="orange"
+        //     p.innerText="Hi"
+
+        // }
+    </script>
+</body>
+</html>

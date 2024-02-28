@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>                                                         
+     <!-- <input type=button value="Increment" onclick="button1()" />
+    <input type=button value="Decrement" onclick="button2()" />
+    -->
+    <button id="btn1">Increment</button>
+    <button id="btn2">Decrement</button>
+     <span id="count"></span>
+<script>
+    const btn1=document.getElementById("btn1")
+    const btn2=document.getElementById("btn2")
+    btn1.addEventListener("click",increfunc)
+    btn2.addEventListener("click",decrefunc)
+    var a = 0;
+    document.getElementById('count').innerHTML = a;
+    function increfunc() {
+      document.getElementById('count').innerHTML = ++a;
+    }
+    function decrefunc() {
+      document.getElementById('count').innerHTML = --a;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forEach function</title>
+</head>
+<body>
+    <h1>forEach function</h1><hr>
+    <script>
+        //arrow function
+        let salaries =[40000,23000,50000]
+        console.log(salaries)
+        salaries.forEach((amount,index) =>{
+            let hike=amount/10
+            console.log(hike)
+            salaries[index]=amount + hike
+        })
+        console.log(salaries)
+        //anonymous function
+        let salaries1 =[42000,24000,40000]
+        let hike1=salaries.forEach(function(amount1,index1){
+            let increment=amount1/10
+            salaries[index1]=amount1+increment
+        })
+        console.log(salaries1)
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Function</title>
+</head>
+<body>
+    <script>
+        let nums=[4,67,51,54,65,66]
+        // //arrow function
+        // let even_num=nums.filter((ele,i)=>{
+        //     return ele%2==0
+        // })
+        // console.log(even_num)
+        // let odd_nums=nums.filter((ele,i)=>{
+        //     return ele%2 !==0
+        // })
+        // console.log(odd_nums)
+        //anonymous function
+        let even=nums.filter(function(ele1,i1){
+            return ele1%2==0
+        })
+        console.log(even)
+        let odd=nums.filter(function(ele2,i2){
+            return ele2%2 !==0
+        })
+        console.log(odd)
+    </script>
+</body>
+</html>
