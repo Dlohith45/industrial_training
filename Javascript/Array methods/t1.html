@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records</title>
+    
+</head>
+<body>
+    <script>
+        let a=[
+            {
+                name:'pushpa',
+                no:69,
+                clg:'acet'
+            },
+            {
+               name:'venkat',
+               no:45,
+               clg:"acoe"
+            },
+            {
+               name:'vihari',
+               no:67,
+               clg:"acoe"
+            }
+        ]
+        console.log(a)
+        let check=a.filter((ele,i)=>{
+           if(ele.clg=='acoe'){
+            document.write("<h1>"+'Record'+i+"</h1>"+"</br>")
+            document.write("1)"+ele.name+"</br>")
+           document.write("2)"+ele.no+"</br>")
+           document.write("3)"+ele.clg+"</br>")
+        } 
+        })
+        console.table(check)
+       
+        
+    </script>   
+</body>
+</html>

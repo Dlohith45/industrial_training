@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>every function</title>
+</head>
+<body>
+    <h1>Every function</h1><hr>
+    <script>
+        let a=[73,67,51,42,76]
+        let final=a.every((score,i)=>{
+            console.log(score)
+            return score>35
+        })
+        console.log(final)
+        //anonymous function
+        let b=[43,67,51,42,76]
+        let final1=b.every(function(score,i){
+            console.log(score)
+            return score>35
+        })
+        console.log(final1)
+        //normal function
+        let c=[25,67,51,42,76]
+        let final2=c.every(fun)
+        function fun(score,i){
+            console.log(score)
+            return score>35
+        }
+        console.log(final2)
+
+    </script>
+</body>
+</html>

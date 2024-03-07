@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records in table</title>
+</head>
+<body>
+    <table border="2" width="50%" >
+        <tr>
+            <th>Name</th>
+            <th>No</th>
+            <th>Clg</th>
+        </tr>
+        <tbody id="head"></tbody>
+    </table>
+    <p id="p"></p>
+    <script>
+       
+        let s=[
+        {
+                name:'pushpa',
+                no:69,
+                clg:'acet'
+            },
+            {
+               name:'venkat',
+               no:45,
+               clg:"acoe"
+            },
+            {
+               name:'vihari',
+               no:67,
+               clg:"acoe"
+            }
+        ]
+
+        let check=s.filter((ele,i)=>{
+            return ele.clg=='acoe'
+        })
+        console.table(check)
+        var a='<tbody>' 
+        for(i=0;i<check.length;i++){
+            a=a+'<tr>'
+            a=a+'<td>'+check[i].name +'</td>'
+            a=a+'<td>'+check[i].no +'</td>'
+            a=a+'<td>'+check[i].clg +'</td>'
+            a=a+'</tr>'
+        }
+        a=a+'</tbody>';
+        document.getElementById('head').innerHTML=a;
+    </script>
+</body>
+</html>

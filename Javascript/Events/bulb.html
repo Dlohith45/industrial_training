@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center>
+    <img src="../../images/off.png" height=400px width=400px id="im1"><br>
+    
+    <button onclick="fun() " ondblclick="fun1()">ON/OFF</button>
+    <script>
+        let im1=document.getElementById("im1")
+        function fun(){
+          return im1.src="../../images/on.png"  
+        }
+        function fun1(){
+            return im1.src="../../images/off.png"   
+          }
+    </script></center>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let courses=["html",'css',"bootstrap"]
+        let a=courses.some((a1,i)=>{
+            return a1=="css"
+        })
+        console.log(a)
+        //a
+        let b=courses.some(function(b1,i){
+            return b1=="html"
+        })
+        console.log(b)
+        //f
+        let c=courses.some(fun)
+        function fun(c1,i){
+            return c1=="javascript"
+        }
+        console.log(c)
+
+
+    </script>
+</body>
+</html>

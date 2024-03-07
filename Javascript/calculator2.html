@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"integrity= "sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="crossorigin="anonymous"referrerpolicy="no-referrer"></script> 
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"integrity= "sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="crossorigin="anonymous"referrerpolicy="no-referrer"></script> 
+    <title>Calculator task</title>
+    <style>
+        .box{
+            height:600px;
+            width:500px;
+            border:1px ;
+        }
+       input[type="button"]{
+        background-color: green;
+        font-size: larger;
+        border:0px;
+        border-radius:2px;
+        margin-top:2px;
+        color:white
+    }
+    .a{
+         height:60px; 
+         width:60px;
+    }
+    .b{
+        height:60px; 
+        width:130px;
+    }
+    
+</style>
+</head>
+<body>
+    <center>
+    <div class="box" >
+        
+  <input  type="text" id="calc" name="notes"   style= 'height:50px; width:390px'  float="right">
+  <input type="button" onclick="clr()" value="c"class="a"><br>
+  <input type="button" onclick="dis(1)" value="1" class="b" >
+  <input type="button" onclick="dis(2)" value="2" class="b" >
+  <input type="button" onclick="dis(3)" value="3" class="b" >
+  <input type="button" onclick="dis('/')" id="div" value="/" class="a" >
+  
+  <input type="button" onclick="dis(4)" value="4" class="b">
+  <input type="button" onclick="dis(5)" value="5"class="b">
+  <input type="button" onclick="dis(6)" value="6" class="b">
+  <input type="button" onclick="dis('*')" value="*" class="a">
+  <input type="button" onclick="dis(7)" value="7" class="b">
+  <input type="button"  onclick="dis(8)"value="8" class="b">
+  <input type="button"  onclick="dis(9)"value="9" class="b">
+  <input type="button" onclick="dis('-')" value="-" class="a">
+  <input type="button"  onclick="dis(0)"value="0" class="b">
+  <input type="button" onclick="dis('.')" value="." class="b">
+  <input type="button" onclick="answer()" value="=" class="b">
+  <input type="button" onclick="dis('+')"value="+" class="a">
+
+    </div>
+    </center>
+    <script>
+        function dis(value){
+            document.getElementById("calc").value+=value
+            
+        }
+        // Function that evaluates the digit and return result 
+        function answer(){ 
+            let x = document.getElementById("calc").value 
+            let y = math.evaluate(x) 
+            document.getElementById("calc").value=y
+        }
+
+        function clr(){
+            document.getElementById("calc").value=''
+        }
+    </script>
+</body>
+</html>

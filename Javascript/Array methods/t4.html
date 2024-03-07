@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checking gmail</title>
+</head>
+<center><body>
+    <input type="email" placeholder="enter the mail" id="p1" onkeypress="">
+    <button onclick="fun()">find</button>
+    <p id="p2"></p>
+    <script>
+        function fun(){
+        let a=["hi@gmail.com","hello@gmail.com","bye@gmail.com"]
+        let get=a.find(fun1)
+        function fun1(a1,index,arr){
+            let p1=document.getElementById("p1").value  
+            if(p1==a1){
+              return  p2.innerHTML="already exist"
+            }
+            else{
+                let p2=document.getElementById("p2")
+               return p2.innerText="proceed"
+            }
+        } 
+    }
+</script>
+</body></center>
+</html>

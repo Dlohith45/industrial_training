@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>some function</title>
+</head>
+<body>
+    <h1>some() function</h1><hr>
+    <script>
+        let emails=['venky@gmail.com','dubaiseenu@gmail.com','vikramarkudu@gmail.com']
+        let check=emails.some((email,i,arr)=>{
+            return email=='dubaiseenu@gmail.com'
+        })
+        console.log(check)
+        //anonymous function
+        let emails1=['venky@gmail.com','dubaiseenu@gmail.com','vikramarkudu@gmail.com']
+        let check1=emails1.some(function(email,i,arr){
+            return email=='eagle@gmail.com'
+        })
+        console.log(check1)
+        //normal function
+        let emails2=['venky@gmail.com','dubaiseenu@gmail.com','vikramarkudu@gmail.com','kick@gmail.com']
+        let check2=emails2.some(fun)
+        function fun(email,i,arr){
+            return email=='kick@gmail.com'
+        }
+        console.log(check2)
+    </script>
+</body>
+</html>

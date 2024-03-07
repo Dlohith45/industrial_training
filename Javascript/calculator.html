@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator task</title>
+    <style>
+        input[type="button"]{
+            background-color: green;
+            font-size: large;
+            border: 0px;
+            border-radius: 2px;
+            margin-top: 2px;
+        }
+        .box{
+            height: 600px;
+            width: 370px;
+            border: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <div class="box">
+    <form>
+    <input type="number" name="cal" id="cal" style="height:50px; width:310px;" float="right">
+    <input type="button" value="c"  style="height: 55px;width: 50px;">
+    <br>
+    <input type="button" value="1" onclick="dis(1)" style="height: 55px;width:100px;">
+    <input type="button" value="2" onclick="dis(2)" style="height: 55px;width:100px;">
+    <input type="button" value="3" onclick="dis(3)" style="height: 55px;width:100px;">
+    <input type="button" value="/" onclick="dis('/')"style="height: 55px;width:50px;">
+
+    <input type="button" value="4" onclick="dis(4)" style="height: 55px;width:100px;">
+    <input type="button" value="5" onclick="dis(5)" style="height: 55px;width:100px;">
+    <input type="button" value="6" onclick="dis(6)" style="height: 55px;width:100px;">
+    <input type="button" value="*" onclick="dis('*')" style="height: 55px;width:50px;">
+
+    <input type="button" value="7" onclick="dis(7)" style="height: 55px;width:100px;">
+    <input type="button" value="8" onclick="dis(8)" style="height: 55px;width:100px;">
+    <input type="button" value="9" onclick="dis(9)" style="height: 55px;width:100px;">
+    <input type="button" value="-" onclick="dis('-')" style="height: 55px;width:50px;">
+
+    <input type="button" value="0"onclick="dis(0)" style="height: 55px;width:100px;">
+    <input type="button" value="." onclick="dis('.')" style="height: 55px;width:100px;">
+    <input type="button" value="=" onclick="dis('=')"style="height: 55px;width:100px;">
+    <input type="button" value="+" onclick="dis('+')" style="height: 55px;width:50px;">
+</form></center>
+</div>
+<script>
+    function dis(val){
+        document.getElementById("cal").value+=val
+    }
+ 
+</script>
+</body>
+</html>

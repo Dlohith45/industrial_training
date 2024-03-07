@@ -1,0 +1,61 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="p1">
+    <p id="p2"></p>
+    <button onclick=fun()>Find</button>
+    <script>
+        function fun(){
+            let names=["abc","def","xyz"]
+            let a=names.find(fun1)
+            function fun1(a1,i){
+                let p1=document.getElementById("p1").value
+                if(a1.startsWith(p1)){
+                    return a1
+                }
+                else{
+                   return document.write("no")
+                }
+                // return a1.startsWith(p1)
+            }
+            let p2=document.getElementById("p2")
+            p2.innerHTML=a
+        }       
+    </script>
+</body>
+</html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text"  id="i1">
+    <p id="i2"></p>
+    <button onclick="fun()">Find</button>
+    <script>
+        function fun(){
+            let names=["abc",'def','xyz']
+            let a=names.find(fun1)
+            function fun1(a1,i){
+                let p1=document.getElementById("i1").value
+                if(a1.startsWith(p1)){
+                    return a1
+                }
+                else{
+
+                    return document.write("no")
+                }
+            }
+            let p2=document.getElementById("i2")
+            p2.innerHTML=a
+        }                                                         
+    </script>
+</body>
+</html>
+

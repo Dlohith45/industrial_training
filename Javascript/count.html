@@ -15,16 +15,16 @@
 <script>
     const btn1=document.getElementById("btn1")
     const btn2=document.getElementById("btn2")
-    btn1.addEventListener("click",increfunc)
-    btn2.addEventListener("click",decrefunc)
+    btn1.addEventListener("click",inc)
+    btn2.addEventListener("click",dec)
     var a = 0;
     document.getElementById('count').innerHTML = a;
-    function increfunc() {
+    function inc() {
       document.getElementById('count').innerHTML = ++a;
     }
-    function decrefunc() {
+    function dec() {
       document.getElementById('count').innerHTML = --a;
     }
 </script>
 </body>
-</html>
+</html>  

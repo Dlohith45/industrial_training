@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find method</title>
+</head>
+<body>
+    <h1>Find() method </h1><hr>
+    <script>
+        let a=["html","css",'js','bootstrap']
+        let getA=a.find((course,index)=>{
+            return course.startsWith('b')
+        })
+        console.log(getA)
+        // anonymous function
+        let b=["html","css",'js','bootstrap']
+        let getB=b.find(function(course,index){
+            return course.endsWith('s')
+        })
+        console.log(getB)
+        //normal function
+        let c=["html","css",'js','bootstrap']
+        let get=c.find(fun)
+        function fun(courses1,index){
+            return courses1.startsWith('j')
+        }
+        console.log(get)
+
+    </script>
+</body>
+</html>

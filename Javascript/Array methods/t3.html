@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find task</title>
+</head>
+<body>
+    <center><h4>Find the name</h4><hr>
+    <p id="p2"></p>
+    <input type="text" placeholder="enter starting letter" id="p1">
+    <button onclick="fun()">Find</button></center>
+    <script>
+        function fun(){
+        let names=['rakesh','suresh','ravi','teja']
+        let get=names.find(fun1)
+        function fun1(a1,index,arr){  
+            let p1=document.getElementById("p1").value
+            return a1.startsWith(p1)
+        }
+        let p2=document.getElementById("p2")
+        p2.innerText=get
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let bdy=document.body
+        let ptg=document.createElement('p')
+        bdy.appendChild(ptg)
+        ptg.setAttribute('id','demo')
+        
+        let btn=document.createElement('button')
+        btn.setAttribute('id','btnid')
+        bdy.appendChild(btn)
+        btn.innerText="increment"
+
+        let bt=document.createElement('button')
+        bt.setAttribute('id','btid')
+        bdy.appendChild(bt)
+        bt.innerText="decrement"
+        let x = 0
+        document.getElementById('demo').innerHTML = x;
+        let mybtn=document.getElementById('btnid')
+        mybtn.addEventListener('click',inc)
+        let mybt=document.getElementById('btid')
+        mybt.addEventListener('click',dec)
+        function inc() {
+          document.getElementById('demo').innerHTML = ++x;
+        }
+        function dec() {
+          document.getElementById('demo').innerHTML = --x;
+        }
+    </script>
+</body>
